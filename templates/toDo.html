@@ -1,25 +1,25 @@
 {% extends 'base.html' %}
 {% block head %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/toDo.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" type="text/css">
 {% endblock %} 
 
 {% block body %} 
-<script src="script.js"></script>
-<head>
-    <title>Get-Me-Going</title>
-</head>
-<body>
-    <a index="header" href="index.html">
-        <h1 id="mainTitle">Get-Me-Going</h1>
-    </a>
+  <a index="header" href="{{ url_for('index') }}">
+    <h1 id="mainTitle">Get-Me-Going</h1>
+  </a>
 
-    <h2 id="toDotitle">To Do List</h2>
-    <input type="text" id="myInput" placeholder="Items">
-    <button onclick="newElement()" class="button">Add </button>
+<h2 id="toDotitle">To Do List</h2>
 
-<ul id="myUL">
-  <li>Pay bills </li>
+<div class="col-lg-4">
+<input type="text" id="myInput" placeholder="Items">
+<button onclick="newElement()" class="button">Add </button>
+
+</div>
+
+
+<ul id="list">
+<li>Pay bills </li>
 </ul>
-
-</body>
-<script src="script.js"></script>
+<script src="{{ url_for('static', filename='js/toDo.js') }}"></script>
 {% endblock %}

@@ -18,5 +18,6 @@ def toDo():
 def music():
     return render_template('music.html')
 
+
 if __name__ == '__main__':
     app.run(debug=True)
