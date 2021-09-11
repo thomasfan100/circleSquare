@@ -1,5 +1,12 @@
 {% extends 'base.html' %}
 {% block head %} 
+<div class="topnav">
+    <link href="{{ url_for('static',filename='css/nav-bar.css') }}" rel="stylesheet" type="text/css" />
+    <a class="active" href="{{ url_for('index') }}">GET-ME-GOING</a>
+    <a href="{{ url_for('newSkill') }}">New Skill</a>
+    <a href="{{ url_for('toDo') }}">To-Do</a>
+    <a href="{{ url_for('music') }}">Music</a>
+</div>
 {% endblock %} 
 
 {% block body %} 
@@ -8,12 +15,15 @@
   <div class="container">
 
     <h1 id="mainTitle">Get-Me-Going</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap" rel="stylesheet">
 
     <div class="row">
         <div class="col-lg-4">
             <a href="{{ url_for('newSkill') }}">
             <div class="circle1 circle-shadow">
-                <img id="dicepic" src=".\img\dice.png"></img>
+                <img id="dicepic" src="{{ url_for('static', filename='img/dice.png') }}"></img>
             </div>
           </a>
           <h3 id="newSkill">New Skill</h3>
@@ -22,18 +32,18 @@
         <div class="col-lg-4">
            <a href="toDo.html">
           <div class="circle2 circle-shadow">
-            <img id="checkpic" src=".\img\checkmark.png"></img>
+            <img id="checkpic" src="{{ url_for('static', filename='img/checkmark.png') }}""></img>
           </div>
           
           </a>
-          <h3 id="to-do">To-Do</h3>
+          <h3 id="toDo">To-Do</h3>
          <!--- <input type = "text" id="myInput" placeholder="Items to do"> --> 
         </div>
   
         <div class="col-lg-4">
             <a href="{{ url_for('music') }}">
             <div class="circle3 circle-shadow">
-                <img id="musicpic" src=".\img\music.png"></img> 
+                <img id="musicpic" src="{{ url_for('static', filename='img/music.png') }}"></img> 
             </div>
             </a>
           <h3 id="musicpic">Music</h3>

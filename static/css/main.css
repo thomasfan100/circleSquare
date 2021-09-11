@@ -1,5 +1,5 @@
 body {
-  background-color:#e37756;
+  background-color:#ffffff;
 }
 
 /* .rectangle{
@@ -8,8 +8,10 @@ body {
 } */
 
 #mainTitle {
-  text-align:center;
-  color:#800000d1;
+  text-align:left;
+  color:#1836B2;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 #header {
@@ -36,7 +38,7 @@ body {
   background-color:#dc3535ed;
 }
 
-#to-do {
+#toDo {
   color:#800000d1;
   text-align:center;
 }

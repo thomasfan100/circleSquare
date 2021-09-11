@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block head %} 
+{% endblock %} 
+
+{% block body %} 
+<script src="script.js"></script>
+<head>
+    <title>Get-Me-Going</title>
+</head>
+<body>
+    <a index="header" href="index.html">
+        <h1 id="mainTitle">Get-Me-Going</h1>
+    </a>
+
+    <h2 id="toDotitle">To Do List</h2>
+    <input type="text" id="myInput" placeholder="Items">
+    <button onclick="newElement()" class="button">Add </button>
+
+<ul id="myUL">
+  <li>Pay bills </li>
+</ul>
+
+</body>
+<script src="script.js"></script>
+{% endblock %}
