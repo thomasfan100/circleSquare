@@ -10,24 +10,32 @@
     <h1 id="mainTitle">Get-Me-Going</h1>
 
     <div class="row">
-      <div class="col-lg-4">
-        <div class="circle1"></div>
-        <h3 id="newSkill">New Skill</h3>
-      </div>
-      <div class="col-lg-4">
-        <div class="circle2"></div>
-        <h3 id="to-do">To-Do</h3>
-      </div>
-
-
-      <div class="col-lg-4">
-        <a href="{{ url_for('music') }}" target="_blank">
-        <div class="circle3"></div>
-        </a>
-        <h3 id="music">Music</h3>
+        <div class="col-lg-4">
+          <a href="newSkillPage.html">
+            <div class="circle1 circle-shadow"></div>
+          </a>
+          <h3 id="newSkill">New Skill</h3>
+        </div>
+        
+        <div class="col-lg-4">
+           <a href="toDo.html">
+          <div class="circle2 circle-shadow">
+            <img id = "check" src = "checkmark.png"></img>
+          </div>
+          
+          </a>
+          <h3 id="to-do">To-Do</h3>
+         <!--- <input type = "text" id="myInput" placeholder="Items to do"> --> 
+        </div>
+  
+        <dlass="col-lg-4">
+          <a href= "music.html">
+          <div class="circle3 circle-shadow"></div>
+          </a>
+          <h3 id="music">Music</h3>
+        </div>
       </div>
     </div>
   </div>
-</div>
     <script src="script.js"></script>
 {% endblock %}
