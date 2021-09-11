@@ -49,13 +49,21 @@ body {
       background-color:aqua;
   }
 
-  #music {
-    color:aqua;
-    text-align:center;
-  }
+    #music {
+      color:aqua;
+      text-align:center;
+    }
   
   .row {
     padding-top: 150px;
+  }
+
+  #dicepic {
+    display:block;
+    width: 75%;
+    height: 75%;
+    margin: 20px 30px 20px 20px;
+    padding: 10px;
   }
 
   #checkpic {
