@@ -8,7 +8,11 @@ def index():
     
 @app.route('/music/')
 def music():
-  return render_template('music.html')
+    return render_template('music.html')
+
+@app.route('/newSkill/')
+def newSkill():
+    return render_template('newSkill.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -11,9 +11,9 @@
 
     <div class="row">
         <div class="col-lg-4">
-          <a href="newSkillPage.html">
+            <a href="{{ url_for('newSkill') }}">
             <div class="circle1 circle-shadow">
-                <img id = "dicepic" src = "dice.png"></img>
+                <img id="dicepic" src=".\img\dice.png"></img>
             </div>
           </a>
           <h3 id="newSkill">New Skill</h3>
@@ -22,7 +22,7 @@
         <div class="col-lg-4">
            <a href="toDo.html">
           <div class="circle2 circle-shadow">
-            <img id = "check" src = "checkmark.png"></img>
+            <img id="checkpic" src=".\img\checkmark.png"></img>
           </div>
           
           </a>
@@ -30,15 +30,14 @@
          <!--- <input type = "text" id="myInput" placeholder="Items to do"> --> 
         </div>
   
-        <dlass="col-lg-4">
-          <a href= "music.html">
-          <div class="circle3 circle-shadow">
-          </div>
-          </a>
-          <h3 id="music">Music</h3>
+        <div class="col-lg-4">
+            <a href="{{ url_for('music') }}">
+            <div class="circle3 circle-shadow"></div>
+            </a>
+          <h3 id="musicpic">Music</h3>
         </div>
       </div>
     </div>
-  </div>
-    <script src="script.js"></script>
+</div>
+<script src="script.js"></script>
 {% endblock %}

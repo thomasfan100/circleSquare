@@ -1,84 +1,103 @@
 body {
-    background-color:#e37756;
-  }
-  
-  /* .rectangle{
-      height: 500px;
-      width: 100 px;
-  } */
-  
-  #mainTitle {
-    text-align:center;
-    color:#000066;
-  }
-  
-  .circle1 {
-      height:100px;
-      border-radius: 50%;
-      width: 100px;
-      padding: 3px;
-      margin:auto;
-      background-color:maroon;
-  }
-  
-  #newSkill {
-      color:maroon;
-      text-align:center;
-  }
-  
-  .circle2 {
-      height:100px;
-      border-radius: 50%;
-      width: 100px;
-      padding: 3px;
-      margin:auto;
-      background-color:purple;
-  }
+  background-color:#e37756;
+}
 
-  #to-do {
-    color:purple; 
-    text-align:center;
-  }
-  
-  .circle3 {
-      height:100px;
-      border-radius: 50%;
-      width: 100px;
-      padding: 3px;
-      margin:auto;
-      background-color:aqua;
-  }
+/* .rectangle{
+    height: 500px;
+    width: 100 px;
+} */
 
-    #music {
-      color:aqua;
-      text-align:center;
-    }
-  
-  .row {
-    padding-top: 150px;
-  }
+#mainTitle {
+  text-align:center;
+  color:#800000d1;
+}
 
-  #dicepic {
-    display:block;
-    width: 75%;
-    height: 75%;
-    margin: 20px 30px 20px 20px;
-    padding: 10px;
-  }
+#header {
+  text-decoration: none;
+}
 
-  #checkpic {
-    display:block;
-    width: 75%;
-    height: 75%;
-    margin: 30px 30px 30px 30px;
-    padding: 10px;
-  }
+#myInput {
+  text-align: center;
+  position: relative;
+  left:110px;
+}
 
-  #musicpic {
-    display:block;
-    width: 75%;
-    height: 75%;
-    margin: 30px 70px 30px 20px;
-    padding: 10px;
-  }
+#newSkill {
+  color:#800000d1;
+  text-align:center;
+}
+
+.circle1 {
+  height:200px;
+  border-radius: 50%;
+  width: 200px;
+  padding: 3px;
+  margin:auto;
+  background-color:#dc3535ed;
+}
+
+#to-do {
+  color:#800000d1;
+  text-align:center;
+}
+
+.circle2 {
+  height:200px;
+  border-radius: 50%;
+  width: 200px;
+  padding: 3px;
+  margin:auto;
+  background-color:#00803c;
+}
+
+#music {
+  color:#800000d1;
+  text-align:center;
+}
+
+.circle3 {
+  height:200px;
+  border-radius: 50%;
+  width: 200px;
+  padding: 3px;
+  margin:auto;
+  background-color:whitesmoke;
+}
+
+.circle-shadow {
+  transition: box-shadow .3s;
+}
+
+.circle-shadow:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.4); 
+}
+
+.row {
+  padding-top: 150px;
+}
+
+#dicepic {
+  display:block;
+  width: 75%;
+  height: 75%;
+  margin: 20px 30px 20px 20px;
+  padding: 10px;
+}
+
+#checkpic {
+  display:block;
+  width: 75%;
+  height: 75%;
+  margin: 30px 30px 30px 25px;
+  padding: 10px;
+}
+
+#musicpic{
+  display:block;
+  width: 75%;
+  height: 75%;
+  margin: 30px 30px 30px 20px;
+  padding: 10px;
+}
+
   
