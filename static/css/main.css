@@ -25,8 +25,10 @@ body {
 }
 
 #newSkill {
-  color:#800000d1;
+  color:black;
   text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .circle1 {
@@ -39,8 +41,10 @@ body {
 }
 
 #toDo {
-  color:#800000d1;
+  color:black;
   text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .circle2 {
@@ -53,8 +57,10 @@ body {
 }
 
 #music {
-  color:#800000d1;
+  color:black;
   text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .circle3 {

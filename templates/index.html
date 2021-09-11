@@ -1,12 +1,6 @@
 {% extends 'base.html' %}
 {% block head %} 
-<div class="topnav">
-    <link href="{{ url_for('static',filename='css/nav-bar.css') }}" rel="stylesheet" type="text/css" />
-    <a class="active" href="{{ url_for('index') }}">GET-ME-GOING</a>
-    <a href="{{ url_for('newSkill') }}">New Skill</a>
-    <a href="{{ url_for('toDo') }}">To-Do</a>
-    <a href="{{ url_for('music') }}">Music</a>
-</div>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 {% endblock %} 
 
 {% block body %} 
@@ -32,7 +26,7 @@
         <div class="col-lg-4">
            <a href="toDo.html">
           <div class="circle2 circle-shadow">
-            <img id="checkpic" src="{{ url_for('static', filename='img/checkmark.png') }}"></img>
+            <img id="checkpic" src="{{ url_for('static', filename='img/checkmark.png') }}""></img>
           </div>
           
           </a>
@@ -46,7 +40,7 @@
                 <img id="musicpic" src="{{ url_for('static', filename='img/music.png') }}"></img> 
             </div>
             </a>
-          <h3 id="musicpic">Music</h3>
+          <h3 id="music">Music</h3>
         </div>
       </div>
     </div>
