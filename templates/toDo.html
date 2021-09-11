@@ -1,25 +1,33 @@
 {% extends 'base.html' %}
 {% block head %} 
-<link rel="stylesheet" href="{{ url_for('static', filename='css/toDo.css') }}" type="text/css">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" type="text/css">
+<div class="topnav">
+    <link href="{{ url_for('static',filename='css/nav-bar.css') }}" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap" rel="stylesheet">
+    <a class="active" href="{{ url_for('index') }}">GET-ME-GOING</a>
+    <a href="{{ url_for('newSkill') }}">New Skill</a>
+    <a href="{{ url_for('toDo') }}">To-Do</a>
+    <a href="{{ url_for('music') }}">Music</a>
+</div>
 {% endblock %} 
 
 {% block body %} 
-  <a index="header" href="{{ url_for('index') }}">
-    <h1 id="mainTitle">Get-Me-Going</h1>
-  </a>
+<link href="{{ url_for('static',filename='css/main.css') }}" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/toDo.css') }}" type="text/css">
 
-<h2 id="toDotitle">To Do List</h2>
+<h1 id="toDotitle">To Do List</h2>
 
 <div class="col-lg-4">
-<input type="text" id="myInput" placeholder="Items">
-<button onclick="newElement()" class="button">Add </button>
+    <input type="text" id="myInput" placeholder="Items">
+    <button onclick="newElement()" class="button">Add</button>
 
 </div>
 
 
 <ul id="list">
 <li>Pay bills </li>
+<li>Wash dishes</li>
 </ul>
 <script src="{{ url_for('static', filename='js/toDo.js') }}"></script>
 {% endblock %}
