@@ -1,10 +1,12 @@
 body {
-    background-color:#e37756;
+    background-color:#ffffff;
   }
   
 #mainTitle {
     text-align:center;
-    color:#000066;
+    color:#1836B2;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 #myInput {
@@ -16,6 +18,8 @@ body {
 #Classical {
     color:cornflowerblue;
     text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .circle1 {
@@ -30,6 +34,8 @@ body {
 #Lofi {
     color:darkblue;
     text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .circle2 {
@@ -42,9 +48,10 @@ body {
 }
 
 #Jazz {
-color:lightblue;
-text-align:center;
-
+    color:lightblue;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
 }
   
 .circle3 {
@@ -55,7 +62,55 @@ text-align:center;
     margin:auto;
     background-color:lightblue;
 }
-  
+
+#WhiteNoise {
+    color:#20639b;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.circle4 {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    padding: 3px;
+    margin:auto;
+    background-color:#20639b;
+}
+
+#PeacefulGuitar {
+    color:lightskyblue;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.circle5 {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    padding: 3px;
+    margin:auto;
+    background-color:lightskyblue;
+}
+
+#Ambient {
+    color:#018abe;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.circle6 {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    padding: 3px;
+    margin:auto;
+    background-color:#018abe;
+}
+
 .circle-shadow {
     transition: box-shadow .3s;
 }
