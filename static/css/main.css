@@ -7,14 +7,12 @@ body {
       width: 100 px;
   } */
   
-  #mainTitle{
-    
+  #mainTitle {
     text-align:center;
-  
     color:#000066;
   }
   
-  .circle1{
+  .circle1 {
       height:100px;
       border-radius: 50%;
       width: 100px;
@@ -24,15 +22,11 @@ body {
   }
   
   #newSkill {
-  
-  color:maroon;
-  
-  text-align:center;
-  
+      color:maroon;
+      text-align:center;
   }
   
-  
-  .circle2{
+  .circle2 {
       height:100px;
       border-radius: 50%;
       width: 100px;
@@ -40,16 +34,13 @@ body {
       margin:auto;
       background-color:purple;
   }
-  
-  #music {
-  
-  color:aqua;
-  
-  text-align:center;
-  
+
+  #to-do {
+    color:purple; 
+    text-align:center;
   }
   
-  .circle3{
+  .circle3 {
       height:100px;
       border-radius: 50%;
       width: 100px;
@@ -57,18 +48,29 @@ body {
       margin:auto;
       background-color:aqua;
   }
-  
-  #to-do{
-  
-  color:purple;
-  
-  text-align:center;
-  
-  
+
+  #music {
+    color:aqua;
+    text-align:center;
   }
-  
   
   .row {
     padding-top: 150px;
+  }
+
+  #checkpic {
+    display:block;
+    width: 75%;
+    height: 75%;
+    margin: 30px 30px 30px 30px;
+    padding: 10px;
+  }
+
+  #musicpic {
+    display:block;
+    width: 75%;
+    height: 75%;
+    margin: 30px 70px 30px 20px;
+    padding: 10px;
   }
   
