@@ -32,6 +32,7 @@ body {
 }
 
 .circle1 {
+  cursor: pointer;
   height:200px;
   border-radius: 50%;
   width: 200px;
