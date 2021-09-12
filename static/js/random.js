@@ -9,5 +9,5 @@ function newSkillSite() {
     
     var randomNumber = Math.floor(Math.random()* (sites.length));
     document.getElementById('siteDisplay').innerHTML = sites[randomNumber];
-    location.href = sites[randomNumber]
+    location.href = sites[randomNumber];
 }
