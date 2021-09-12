@@ -33,6 +33,7 @@ ul li {
   border-style: ridge;
   cursor: pointer;
   position: relative;
+  word-break: break-word;
 }
   
 ul li:hover {
