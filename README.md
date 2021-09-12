@@ -14,4 +14,4 @@ Directions for reproducing the Get-Me-Going web application:
 4. Activate the virtual environment (in Windows) by running the command <code>.\venv\Scripts\activate</code>.
 5. Download dependencies (in Windows) by running the command <code>pip install -r requirements.txt</code>.
 6. Run the program (in Windows) by running the command <code>flask run</code> or <code>python app.py</code>.
-7. Watch the world go round.
+7. Watch the world go 'round.
