@@ -1,3 +1,4 @@
+# circleSquare is a productivity app that provides remediating music, task logging, and new skills to learn for users. 
 Directions for reproducing our results.
 1. Clone circleSquare to a local repository.
 2. Open up terminal in the location that it was downloaded.
